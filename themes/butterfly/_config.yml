@@ -34,7 +34,7 @@ code_word_wrap: false
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
 copy:
-  enable: true  #是否网站复制版权
+  enable: false  #是否网站复制版权
   copyright:  #复制的内容后面加上版权信息
     enable: true  # 是否开启复制版权信息添加
     limit_count: 50 # 字数限制
@@ -263,7 +263,7 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
-  # - Valine
+  - Valine
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -313,11 +313,11 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
+  appId: JuhjSooSNzsjh8eOivQlef0m-gzGzoHsz # leancloud application app id
+  appKey: nHySdYB9HlHaU58Hl2RzKSGr  # leancloud application app key
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  lang: en # i18n: zh-CN/zh-TW/en/ja
+  lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
   placeholder: Please leave your footprints # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
   recordIP: false # Record reviewer IP
@@ -412,9 +412,9 @@ footer:
   owner:
     enable: true
     since: 2021
-  #custom_text: <a href="icp鏈接"><img class="icp-icon" src="icp圖片"><span>備案號：xxxxxx</span></a>
-  custom_text: Hi, welcome to my <a href="https://butterfly.js.org/">blog</a>!
-  copyright: true # Copyright of theme and framework
+  custom_text: <a href="https://beian.miit.gov.cn/"><span>渝ICP备19017103号-1</span></a>
+  # custom_text: Hi, welcome to my <a href="https://butterfly.js.org/">blog</a>!
+  copyright: false # Copyright of theme and framework
 
 # Analysis
 # --------------------------------------
