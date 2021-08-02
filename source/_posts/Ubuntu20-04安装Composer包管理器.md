@@ -1,8 +1,8 @@
 ---
 title: Ubuntu20.04安装Composer包管理器
 date: 2021-07-29 18:03:08
-tags: [Composer,Ubuntu,开发环境]
-categories: Composer
+tags: [composer,ubuntu]
+categories: 包管理器
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: WSL2 Install
 date: 2021-07-29 13:54:23
-tags: WSL
+tags: wsl
 categories: WSL
 comments: true
 ---

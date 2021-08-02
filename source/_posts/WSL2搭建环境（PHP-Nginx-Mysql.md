@@ -1,7 +1,7 @@
 ---
 title: WSL2搭建环境(PHP+Nginx+Mysql)
 date: 2021-07-29 16:56:04
-tags: [PHP,Mysql,Nginx,WSL] 
+tags: [php,mysql,nginx,wsl] 
 categories: WSL
 ---
 
