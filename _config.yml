@@ -112,9 +112,11 @@ deploy:
 
 search:
   path: search.xml
-  field: post
+  field: all
   content: true
-  template: ./search.xml
+  format: html
+  limit: 9999
+  # template: ./search.json
 
 #search
 algolia:

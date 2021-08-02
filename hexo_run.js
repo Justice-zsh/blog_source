@@ -7,3 +7,4 @@ exec('hexo server',(error,stdout,stderr)=>{
     console.log('stdout:${stdout}')
     console.log('stderr:${stderr}')
 })
+

@@ -9,21 +9,6 @@
     padding-left: 3px !important;
 }
 
-/* 隐藏回到顶部按钮，替换为up酱 */
-
-/* #go-up i {
-    display: none;
-    background-color: transparent !important;
-}
-
-#go-up {
-    background-color: transparent !important;
-}
-
-#upj {
-    transform: translate(-70px, -80px) !important;
-} */
-
 /*新版3.0.0以上添加up酱置顶ico图标上移问题*/
 /* .fas.fa-arrow-up {
     line-height: 2;
@@ -31,7 +16,7 @@
 
 /* 博主昵称颜色 */
 .author-info__name {
-    color: #ff7242;
+    color: #927b74;
 }
 
 /* 评论框  */
@@ -46,7 +31,6 @@
 
 
 /* 提交按钮 */
-
 #vcomment button {
     padding: 0.3rem 0.8rem;
     border-color: #fff;
@@ -88,10 +72,10 @@
 
 /* a标签默认颜色 */
 
-#article-container a {
+/* #article-container a {
     color: #00c4b6;
     text-decoration: none;
-}
+} */
 
 /* 鼠标悬停时的颜色 */
 
@@ -100,9 +84,9 @@
     text-decoration: none;
 }
 /*a标签颜色*/
-a {
+/* a {
     color: #00c4b6;
-}
+} */
 
 /* 首页中间打字效果上方 */
 #page-header #site_title {
@@ -111,15 +95,15 @@ a {
 
 
 /*页脚a标签字体颜色*/
-#footer-wrap a {
+/* #footer-wrap a {
     color: #00c4b6;
-}
+} */
 
 /*页脚自定义字段字体颜色*/
 /* 也就是配置文件里的footer_custom_text */
-.footer_custom_text {
+/* .footer_custom_text {
     color: #00c4b6;
-}
+} */
 
 /*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
 
@@ -131,25 +115,6 @@ a {
 }
 
 
-/* 鼠标图标 */
-
-body {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/Jkll8I.png), auto;
-}
-
-
-/*a标签*/
-
-a:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
-
-
-/*按钮*/
-
-button:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
 
 #rightside>div>button,
 #rightside>div>a {
@@ -163,70 +128,6 @@ button:hover {
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
 
-
-/* 打赏 */
-
-.post-reward .reward-button {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
-
-
-/* 文章标签 */
-
-.layout_post .tag_share .post-meta__tags {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
-
-
-/* 评论区 */
-
-.vcol * {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
-
-.v[data-class=v] .vicon {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
-
-.v[data-class=v] .vbtn {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
-
-
-/* 回复 */
-
-.vat {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
-
-
-/*i标签*/
-
-i:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
-
-
-/*up酱*/
-
-#upj:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
-
-
-/*页脚a标签*/
-
-#footer-wrap a:hover {
-    text-decoration: none;
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
-
-
-/*分页器*/
-
-#pagination .page-number:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
 /* 分页器的三个点(...) */
 .space {
     color: #00c4b6;
